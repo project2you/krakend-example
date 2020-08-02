@@ -10,12 +10,12 @@ endpoints:
     - http://httpbin.org
     url_pattern: "/ip"
     
-- endpoint: "/ip"
+- endpoint: "/api"
   method: "GET"
   backend:
   - host:
-    - "http://httpbin.org"
-    url_pattern: "/ip"
+    - "http://localhost"
+    url_pattern: "/api"
 
 - endpoint: "/aggs"
   method: "GET"
