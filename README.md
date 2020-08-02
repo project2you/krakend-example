@@ -2,6 +2,15 @@
 
 See more https://i.dont.works/basic-krakend-api-gateway/
 
+
+# Python Flask
+
+$ pip3 install flask
+
+$ python3 app.py
+
+
+
 # TL; DR
 
 ```
@@ -9,7 +18,7 @@ $ docker-compose up -d
 
 $ curl http://127.0.0.1/
 
-$ curl http://127.0.0.1/ip
+$ curl http://127.0.0.1/api
 
 $ curl http://127.0.0.1/aggs
 ```
